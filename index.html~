@@ -47,7 +47,7 @@
 				img.setAttribute("style", "position:absolute;");
 				img.src = 'weather-icons/heart.png';
     				chat.appendChild(img);
-				var xy = getRandomPosition(chat);
+				var xy = getRandomPosition(img);
 				img.style.top = xy[0] + 'px';
 				img.style.left = xy[1] + 'px';
 			}
