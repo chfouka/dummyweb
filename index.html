@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <title>Weather</title>
+  <link href="style/main.css" rel="stylesheet" type="text/css">
+  <link href="weather-icons/css/weather-icons.css" rel="stylesheet" type="text/css">
+
+
+  <!--link rel="shortcut icon" href="favicon.ico"-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+
+  <script src="js/jquery.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+</head>
+<body>
+  <div class="background">
+    <div class="container">
+      <div class="heading">
+        <h1 class="title">Weather</h1>
+      </div>
+
+      <div id="output-container">
+        <div id="user-location-container">
+          <p id="user-location-label">This is not what you meant? Enter something yourself:</p>
+          <form id="locationForm" method="post">
+            <input type="text" id="user-location">
+            <button type="button" onClick="return resolveLocationFromUser()">Submit</button>
+          </form>
+        </div>
+        <div id="location">
+        </div>
+        <div id="weather">
+          <!--div id="sunrise">
+          </div>
+          <div id="sunset">
+          </div-->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="powered">
+    Powered by <a href="http://forecast.io/">Forecast.io</a>
+  </div>
+</body>
+
+<script src="js/utils.js"></script>
+<script src="js/output.js"></script>
+<script src="js/forecast.js"></script>
+<script src="js/geolocation.js"></script>
+</html>
