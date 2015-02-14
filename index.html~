@@ -40,7 +40,6 @@
 				var randomY = Math.floor(Math.random()*y);
 				return [randomX,randomY];
 			}
-
 				
 			function heart() {
    			 	var chat = document.getElementById("rest"); // finds the container
@@ -48,7 +47,7 @@
 				img.setAttribute("style", "position:absolute;");
 				img.src = 'weather-icons/heart.png';
     				chat.appendChild(img);
-				var xy = getRandomPosition(img);
+				var xy = getRandomPosition(chat);
 				img.style.top = xy[0] + 'px';
 				img.style.left = xy[1] + 'px';
 			}
