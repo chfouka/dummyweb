@@ -73,5 +73,10 @@ function resolveLocationFromUser() {
     });
 }
 
+
+function heart() {
+    document.write("ciao");
+}
+
 window.onload = function () { getLocation(); }
 
