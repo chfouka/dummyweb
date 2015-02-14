@@ -34,14 +34,12 @@
             <button id="bt" type="button" onClick="return heart()">Click</button>
 		<script>
 			function heart() {
-   			 document.getElementById("bt").style.color = "red";
+   			 document.write("ciao");
 			}
 		</script>
           <!--</form>-->
         </div>
-        <div id="location">
-        </div>
-        <div id="weather">
+        <div id="rest">
           <!--div id="sunrise">
           </div>
           <div id="sunset">
