@@ -51,6 +51,7 @@
   </div>-->
 </body>
 
+<script src="js/handlers.js"></script>
 <script src="js/utils.js"></script>
 <script src="js/output.js"></script>
 <script src="js/forecast.js"></script>
