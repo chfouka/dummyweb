@@ -31,7 +31,12 @@
           <!--<p id="user-location-label">Random click</p>-->
           <!--<form id="locationForm" method="post"> -->
             <!--<input type="text" id="user-location">-->
-            <button type="button" onClick="return heart()">Click</button>
+            <button id="bt" type="button" onClick="return heart()">Click</button>
+		<script>
+			function heart() {
+   			 document.getElementById("bt").style.color = "red";
+			}
+		</script>
           <!--</form>-->
         </div>
         <div id="location">
