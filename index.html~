@@ -34,7 +34,10 @@
             <button id="bt" type="button" onClick="return heart()">Click</button>
 		<script>
 			function heart() {
-   			 document.write("ciao");
+   			 	var chat = document.getElementById("rest"); // finds the container
+	    			var x = document.createElement("div");
+			    	x.textContent = "ciao";	
+    				chat.appendChild(x);
 			}
 		</script>
           <!--</form>-->
