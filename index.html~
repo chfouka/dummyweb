@@ -23,7 +23,7 @@
   <div class="background">
     <div class="container">
       <div class="heading">
-        <h1 class="title">Love you</h1>
+        <h1 class="title">Ti amo!</h1>
       </div>
 
       <div id="output-container">
@@ -31,13 +31,13 @@
           <!--<p id="user-location-label">Random click</p>-->
           <!--<form id="locationForm" method="post"> -->
             <!--<input type="text" id="user-location">-->
-            <button id="bt" type="button" onClick="return heart()">Click</button>
+            <button id="bt" type="button" onClick="return heart()">Press me</button>
 		<script>
 			function heart() {
    			 	var chat = document.getElementById("rest"); // finds the container
-	    			var x = document.createElement("img");
-				x.src = 'weather-icons/heart.png';
-    				chat.appendChild(x);
+	    			var img = document.createElement('img');
+				img.src = 'weather-icons/heart.png';
+    				chat.appendChild(img);
 			}
 		</script>
           <!--</form>-->
