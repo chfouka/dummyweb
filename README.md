@@ -1,4 +1,4 @@
-Wheater
+Info
 ======
 
-This is a dummy web application
+coming soon
